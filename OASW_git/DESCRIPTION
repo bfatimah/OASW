@@ -1,0 +1,13 @@
+Package: OASW
+Type: Package
+Title: What the Package Does in One 'Title Case' Line
+Version: 1.0
+Date: 2018-12-04
+Author: Fatima Batool
+Maintainer: Fatima Batool <gbatoolfatima@gmail.com>
+Description: One paragraph description of what the package does
+       as one or more full sentences.
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.12.19), cluster, mclust, nnet, sn
+LinkingTo: Rcpp
+RoxygenNote: 6.1.1

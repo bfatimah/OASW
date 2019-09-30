@@ -1,0 +1,10 @@
+useDynLib(OASW, .registration=TRUE)
+export(OSIL,FOSIL,HOSIL,PAMSIL, init)
+importFrom(Rcpp, evalCpp)
+importFrom("stats", "cutree", "dist", "hclust", "kmeans", "rbeta",
+             "rchisq", "rexp", "rf", "rgamma", "rnorm", "rt", "runif",
+             "rweibull")
+importFrom("utils", "data")
+
+
+# "sn", "cluster", "mclust", "nnet", "testthat"
