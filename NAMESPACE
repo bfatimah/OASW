@@ -1,0 +1,4 @@
+useDynLib(oasw, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+importFrom("stats", "cutree", "dist", "hclust", "kmeans",  "rchisq", "rf", "rnorm", "rt", "runif")

@@ -1,0 +1,14 @@
+Package: oasw
+Type: Package
+Title: Optimum average silhouette width clustering methods
+Version: 1.0
+Date: 2020-03-19
+Author: Fatima Batool
+Maintainer: Fatima Batool <ucakfba@ucl.ac.uk>
+Description: The package implements the hierarchical and partitional clustering methods based on the optimization of the average silhouette width index.
+License: GPL (>= 2)
+Encoding: UTF-8
+Imports: Rcpp (>= 1.0.3), ggplot2, MASS, sn, cluster, nnet, GGally,
+         mclust
+LinkingTo: Rcpp
+RoxygenNote: 7.0.2
